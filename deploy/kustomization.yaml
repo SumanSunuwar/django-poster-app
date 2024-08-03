@@ -1,4 +1,4 @@
-sectretGenarator:
+secretGenerator:
   - name: db-password
     literals:
       - password=supersecuredpasswordhere
