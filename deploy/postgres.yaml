@@ -4,7 +4,7 @@ metadata:
   name: postgres
   labels:
     apps: django-postgres
-specs:
+spec:
   selector:
     matchlabels:
       app: django
