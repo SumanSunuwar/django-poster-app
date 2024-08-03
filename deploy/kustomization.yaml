@@ -1,0 +1,7 @@
+sectretGenarator:
+  - name: db-password
+    literals:
+      - password=supersecuredpasswordhere
+resources:
+  - postgres.yaml
+  
