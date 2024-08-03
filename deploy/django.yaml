@@ -67,11 +67,11 @@ spec:
             - name: DB_USER
               value: djangouser
             - name: ALLOWED_HOSTS
-              value: '127.0.0.01,localhost'
+              value: '127.0.0.1,localhost'
             - name: DB_PASS
               valueFrom:
                 secretKeyRef:
-                  name: django-password
+                  name: db-password
                   key: password
             - name: SECRET_KEY
               valueFrom:
