@@ -6,7 +6,7 @@ metadata:
     apps: django-postgres
 spec:
   selector:
-    matchlabels:
+    matchLabels:
       app: django
       tier: postgres
   strategy:
