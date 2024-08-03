@@ -25,7 +25,7 @@ spec:
               name: postgres
           env:
             - name: POSTGRES_DB
-              valiu: djangodb
+              value: djangodb
             - name: POSTGRES_USER
               value: djangouser
             - name: POSTGRES_PASSWORD
