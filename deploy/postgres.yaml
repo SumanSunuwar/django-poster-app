@@ -34,7 +34,7 @@ kind: Deployment
 metadata:
   name: postgres
   labels:
-    apps: django-postgres
+    apps: django
 spec:
   selector:
     matchLabels:
